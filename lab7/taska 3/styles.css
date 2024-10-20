@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+label {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 20px;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.6;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 250px;
+  height: 30px;
+}
+
+textarea {
+  width: 540px;
+  height: 46px;
+  padding: 5px;
+  resize: none;
+}
+
+.form-container {
+  width: 620px;
+  border: 20px solid #868686;
+  padding: 0 20px 20px 20px;
+  background-image: url("https://img.freepik.com/free-vector/abstract-background-design_1100-236.jpg?t=st=1729449465~exp=1729453065~hmac=5b0be9d56a35268793199aca035f5d49d35229536b4f86836109951f7d77f5e3&w=1380");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.form-heading {
+  text-align: center;
+  font-size: 25px;
+  color: #7d21b3;
+  font-weight: 700;
+  font-style: italic;
+  margin: 20px 0;
+  position: relative;
+}
+
+.form-heading::first-letter {
+  font-size: 50px;
+  color: pink;
+}
+
+.form-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 2px;
+  background-color: #7d21b3;
+}
+
+.form-heading:hover::before,
+.form-heading:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ff1493;
+}
+
+.form-heading:hover {
+  color: #ff1493;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover {
+  border-bottom: 4px solid #fbff00;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-bottom: 4px solid #ffa600;
+}
+
+input[type="password"]:hover {
+  border-bottom: 4px solid #1eff00;
+}
+
+input[type="password"]:focus {
+  border-bottom: 4px solid #00ffea;
+}
+
+textarea:hover::first-line {
+  color: red;
+}
+
+button {
+  width: 130px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.reset-button {
+  border: 3px solid #e64a19;
+  color: #e64a19;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.reset-button:active {
+  border: 3px solid #ecfd00;
+  background-color: #a02904;
+  border-radius: 25px;
+}
+
+.submit-button {
+  border: 3px solid #0097a7;
+  color: #0097a7;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.submit-button:active {
+  border: 3px solid #ecfd00;
+  background-color: #014950;
+  border-radius: 25px;
+}

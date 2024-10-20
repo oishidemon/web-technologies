@@ -1,0 +1,35 @@
+.block {
+  position: absolute;
+  padding: 10px;
+  background-color: green;
+  border: 1px solid black;
+  top: 20px;
+  left: 20px;
+}
+
+.block1 {
+  position: absolute;
+  padding: 10px;
+  background-color: green;
+  border: 1px solid black;
+  top: 80px;
+  left: 20px;
+}
+
+.textblock:hover {
+  background-color: #4682b4;
+  width: 100px;
+  height: 150px;
+  top: 20px;
+  left: 200px;
+  z-index: 3;
+}
+
+.textblock1:hover {
+  background-color: #4682b4;
+  width: 100px;
+  height: 150px;
+  top: 20px;
+  left: 350px;
+  z-index: 3;
+}
